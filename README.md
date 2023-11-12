@@ -3,7 +3,7 @@
 
 Сount of button presses - is a library for counting buttons.
 
-The __BUT__ function accepts 4 values: 
+The -BUT- function accepts 4 values: 
 
     1.pin - Output number with INPUT_PULLUP setting;
 
