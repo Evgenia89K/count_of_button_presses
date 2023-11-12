@@ -5,11 +5,11 @@
 
 The BUT function accepts 4 values: 
 
-    1.pin - Output number with INPUT_PULLUP setting;
+        1.pin - Output number with INPUT_PULLUP setting;
 
-    2.timeStop - Time of inactivity after which the program leaves the function;
+        2.timeStop - Time of inactivity after which the program leaves the function;
 
-    3.touch - Delay to prevent rattling of contacts;
+        3.touch - Delay to prevent rattling of contacts;
 
-    4.TAS - Number of touch per second.
+        4.TAS - Number of touch per second.
 
