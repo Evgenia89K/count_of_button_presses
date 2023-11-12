@@ -4,7 +4,7 @@
 Сount of button presses - is a library for counting buttons.
 
 The 
-\'''arduino 
+\'''python 
 BUT
 '''/ 
 function accepts 4 values: 
