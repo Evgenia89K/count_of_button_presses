@@ -1,4 +1,4 @@
-# Count of button presses
+## Count of button presses
 # Arduino library
 
 Сount of button presses - is a library for counting buttons.
