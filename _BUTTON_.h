@@ -1,7 +1,7 @@
 #pragma once
 #include <Arduino.h>
 
-int _BUT_(
+int BUT(
   int pin, //пин с INPUT_PULLUP
   int timeStop = 2000, //время бездействия после которого программа выходит из функции
   int touch = 100,  //предотврошение дребезга контактов
