@@ -3,6 +3,10 @@
 
 Сount of button presses - is a library for counting buttons.
 
+\```python
+print("Привет, мир!")
+\```
+
 The 
 \'''python 
 BUT
