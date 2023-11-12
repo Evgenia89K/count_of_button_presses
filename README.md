@@ -6,7 +6,7 @@
 The 
 \'''python 
 BUT
-'''/ 
+\''' 
 function accepts 4 values: 
 
     1.pin - Output number with INPUT_PULLUP setting;
