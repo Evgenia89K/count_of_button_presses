@@ -1,15 +1,20 @@
 #pragma once
 #include <Arduino.h>
 
-int BUT(
-  int pin, //пин с INPUT_PULLUP
+int _BUT_(
+  byte pin, //пин с INPUT_PULLUP
   int timeStop = 2000, //время бездействия после которого программа выходит из функции
   int touch = 100,  //предотврошение дребезга контактов
-  int TAS = 10 //количество считываемых раз в сикунду (1000 / TAS)
+  int TAS = 10, //количество считываемых раз в сикунду (1000 / TAS)
+  bool EX = 0 //выход если кнопка не нажата
 ) 
 {
   unsigned long pm = millis(); //счетчик выхода
   int but = 0; //количество нажатий на кнопку
+  if (digitalRead(pin) == 1 && EX == 1) 
+  {
+    return 0;
+  }
   while (true) //безконечный цикл
   {
     if (digitalRead(pin) == 0) //прочитать с pin
