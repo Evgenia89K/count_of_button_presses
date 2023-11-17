@@ -9,7 +9,7 @@ void setup() {
 void loop() {
   // put your main code here, to run repeatedly:
   
-  Serial.println(BUT(8, 1000, 80, 8));
+  Serial.println(BUT(8, 1000, 80, 8, 0));
   
   
 
